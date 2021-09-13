@@ -1,0 +1,166 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+ul li {list-style: none;}
+body {
+    width:100%;
+    overflow-x: hidden;
+}
+a, a:link {
+    text-decoration: none;
+    color: #905147;
+    z-index: 5;
+}
+.mainwrap {
+    width: 100%;
+    margin: 0 auto;
+    /* background: gray; */
+}
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.logo {
+    width: 200px;
+    margin-left: 10px;
+}
+.logo > img {
+    width: 200px;
+    height: 70px;
+}
+.top {
+    width: 600px;
+    margin-top: 32px;
+}
+.mainmenu {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    position: relative;
+}
+.mainmenu > li {
+    width: 145px;
+    height: 50px;
+}
+.mainmenu > li > a {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 1.1em;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.mainmenu > li > a:hover {
+    color: #777;
+}
+
+.sub {
+    width: 145px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    /* border: 1px solid salmon; */
+    position: absolute;
+    top: 50px;
+    z-index: 3;
+    display: none;
+}
+.sub:after {
+    display: block;
+    content: '';
+    width: 145px;
+    height: 170px;
+    background: #fefefe;
+    opacity: 0.8;
+    position: absolute; 
+    top: 0;  
+}
+.submenu:after {
+    display: block;
+    content: '';
+    width: 145px;
+    height: 120px;
+    background: #fefefe;
+    opacity: 0.8;
+    position: absolute; 
+    top: 0;  
+}
+.sub > li {
+    width: 140px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    z-index: 1;
+}
+.sub > li > a {
+    font-size: 1.2em;
+    text-align: cneter;
+}
+.sub > li > a:hover {
+    color: #b43a10;
+    transition: all 1s;
+
+}
+.topicons {
+    width: 10%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+.topicons > i {
+    font-size: 1.2em;
+    color: #777;
+}
+.topicons > i:hover {
+    color: #905147;
+}
+
+.mainbanner {
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.videobanner {
+    width: 100%;
+    /* height: 400px; */
+    position: relative;
+}
+.videotext {
+    width: 40%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    z-index: 2;
+}
+.videotitle {
+    width: 100%;
+    position: absolute;
+    top: 40%;
+}
+.videotitle:after {
+    content: '';
+    display: block;
+    width: 300px;
+    margin-top: 5px;
+}
+.videotext > span {
+    background: url('dogcatimg/')
+}
+.video {
+    width: 100%;
+    overflow: hidden;
+    display: block;
+}
+.movie {
+    width: 100%;
+    margin-top: -28%;
+    position: relative;
+}

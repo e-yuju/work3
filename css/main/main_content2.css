@@ -1,0 +1,80 @@
+.mainConents_2 {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 65px;
+}
+.maincontent2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.maincontenttext2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    white-space: pre-line;
+    margin-top: 20px;
+}
+.maincontenttext2 > h1 {
+    text-align: center;
+}
+.maincontenttext2 > p {
+    text-align: center;
+    margin-top: 30px;
+    line-height: 1.5em;
+}
+.maincountBox {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px 0 75px;
+    border-bottom: 1px solid #e9e9e9;
+    border-top: 1px solid #e9e9e9;
+}
+.maincounts {
+    width: 65%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    white-space: pre-line;
+}
+.since {
+    text-align: center;
+}
+.products {
+    text-align: center;
+}
+.country {
+    text-align: center;
+}
+.since h2,
+.products h2,
+.country h2
+ {
+    color: #b43a10;
+    font-size: 2.5em;
+}
+.since strong,
+.products strong,
+.country strong {
+    color: #777;
+    font-size: 1.3em;
+    display: block;
+    margin-top: -30px;
+    font-weight: normal;
+}
+.since p,
+.products p,
+.country p {
+    line-height: 1.5em;
+}
+.since p > b,
+.products p > b,
+.country p > b {
+    color: #8d2f10;
+}
